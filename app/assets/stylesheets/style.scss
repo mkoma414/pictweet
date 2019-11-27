@@ -127,6 +127,7 @@ header.header {
   left: 0;
   right: 0;
   z-index: 5;
+  height: 62px; //追加
   div.header__bar.row {
     position: relative;
     h1.grid-6 {
@@ -151,7 +152,7 @@ header.header {
   .user_nav {
     position: relative;
     height: 100px;
-    position: absolute;
+    // position: absolute;
     right: 0;
     span {
       top: 5px;
